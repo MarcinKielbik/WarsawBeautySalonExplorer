@@ -1,0 +1,6 @@
+@WarsawBeautySalonExplorer.Api_HostAddress = http://localhost:5227
+
+GET {{WarsawBeautySalonExplorer.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
