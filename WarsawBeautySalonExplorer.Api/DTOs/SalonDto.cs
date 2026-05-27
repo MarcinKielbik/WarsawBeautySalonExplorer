@@ -1,6 +1,6 @@
 namespace WarsawBeautySalonExplorer.Api.DTOs;
 
-public class UpdateSalonDto
+public class SalonDto
 {
     public string Name { get; set; } = string.Empty;
     public string Address { get; set; } = string.Empty;

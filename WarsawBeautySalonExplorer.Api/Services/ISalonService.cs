@@ -4,7 +4,9 @@ namespace WarsawBeautySalonExplorer.Api.Services;
 
 public interface ISalonService
 {
-    Task<List<SalonListDto>> GetAllAsync(string? district, string? service);
+    Task<List<SalonDetailsDto>> GetAllAsync(string? district, string? service);
     Task<SalonDetailsDto?> GetByIdAsync(int id);
-    Task<bool> UpdateAsync(int id, UpdateSalonDto dto);
+    Task<SalonDetailsDto> AddAsync(SalonDto dto);
+    Task<bool> UpdateAsync(int id, SalonDto dto);
+    Task<bool> DeleteAsync(int id);
 }

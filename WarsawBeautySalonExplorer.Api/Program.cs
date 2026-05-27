@@ -17,10 +17,21 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<ISalonRepository, SalonRepository>();
 builder.Services.AddScoped<ISalonService, SalonService>();
+builder.Services.AddScoped<SeedImportService>();
 builder.Services.AddControllers();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular", policy =>
+    {
+        policy
+            .WithOrigins("http://localhost:4200")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
 
-
+builder.Services.AddHttpClient<SalonImportService>();
 
 var app = builder.Build();
 
@@ -31,9 +42,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("AllowAngular");
+
 app.MapControllers();
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
+
 
 
 

@@ -39,15 +39,34 @@ public class SalonRepository : ISalonRepository
         return await _context.Salons.FindAsync(id);
     }
 
-    // check if record exist 
-    public async Task<bool> ExistsAsync(int id)
+
+    public async Task<Salon> AddAsync(Salon salon)
     {
-        return await _context.Salons.AnyAsync(s => s.Id == id);
+        await _context.Salons.AddAsync(salon);
+
+        await _context.SaveChangesAsync();
+
+        return salon;
     }
+
 
     public async Task UpdateAsync(Salon salon)
     {
         _context.Salons.Update(salon);
         await _context.SaveChangesAsync();
+    }
+
+
+    public async Task<bool> DeleteAsync(int id)
+    {
+        var salon = await _context.Salons.FindAsync(id);
+
+        if (salon is null)
+            return false;
+
+        _context.Salons.Remove(salon);
+        await _context.SaveChangesAsync();
+
+        return true;
     }
 }

@@ -132,3 +132,5 @@
 /home/marcin/Pulpit/WarsawBeautySalonExplorer/WarsawBeautySalonExplorer.Api/obj/Debug/net8.0/WarsawBeautySalonExplorer.Api.pdb
 /home/marcin/Pulpit/WarsawBeautySalonExplorer/WarsawBeautySalonExplorer.Api/obj/Debug/net8.0/WarsawBeautySalonExplorer.Api.genruntimeconfig.cache
 /home/marcin/Pulpit/WarsawBeautySalonExplorer/WarsawBeautySalonExplorer.Api/obj/Debug/net8.0/ref/WarsawBeautySalonExplorer.Api.dll
+/home/marcin/Pulpit/WarsawBeautySalonExplorer/WarsawBeautySalonExplorer.Api/obj/Debug/net8.0/WarsawBeautySalonExplorer.Api.sourcelink.json
+/home/marcin/Pulpit/WarsawBeautySalonExplorer/WarsawBeautySalonExplorer.Api/bin/Debug/net8.0/Data/Seed/salons.json

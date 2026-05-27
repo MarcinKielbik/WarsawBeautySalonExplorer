@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Beauty Glow Studio",
+    "address": "ul. Marszałkowska 15",
+    "district": "Śródmieście",
+    "phoneNumber": "+48 123 456 789",
+    "websiteUrl": "https://beautyglow.pl",
+    "services": "Haircut, Nails, Makeup",
+    "priceRange": "Budget",
+    "rating": 4.8,
+    "reviewCount": 124
+  }
+]

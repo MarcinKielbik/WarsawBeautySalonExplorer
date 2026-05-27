@@ -12,7 +12,6 @@ public class SalonDetailsDto
     public string? WebsiteUrl { get; set; }
     public string? Services { get; set; }
     public string? PriceRange { get; set; }
-
     public double? Rating { get; set; }
     public int? ReviewCount { get; set; }
 }
