@@ -129,23 +129,14 @@ public class SalonImportService
 
     private static string BuildQuery(string bbox)
     {
-        // return $"""
-        // [out:json][timeout:8];
-        // (
-        //   node["shop"="beauty"]({bbox});
-        //   node["shop"="hairdresser"]({bbox});
-        // );
-        // out tags 20;
-        // """;
-
-
         return """
-    [out:json][timeout:20];
-    (
-      node["shop"="hairdresser"](52.09,20.85,52.35,21.20);
-    );
-    out tags 50;
-    """;
+        [out:json][timeout:60];
+        (
+        node["shop"="hairdresser"](52.09,20.85,52.35,21.20);
+        node["shop"="beauty"](52.09,20.85,52.35,21.20);
+        );
+        out tags 120;
+        """;
     }
 
     private static string BuildAddress(OverpassTags tags)
