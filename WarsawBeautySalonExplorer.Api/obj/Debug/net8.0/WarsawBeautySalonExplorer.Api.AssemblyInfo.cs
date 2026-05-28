@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WarsawBeautySalonExplorer.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40b7b428f0c68107b4e5c324a584e3d39f65b665")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57c7aa2ea05049dda941d8687cc24b1103fb1ce2")]
 [assembly: System.Reflection.AssemblyProductAttribute("WarsawBeautySalonExplorer.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WarsawBeautySalonExplorer.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

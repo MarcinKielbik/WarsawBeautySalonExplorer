@@ -9,5 +9,104 @@
     "priceRange": "Budget",
     "rating": 4.8,
     "reviewCount": 124
+  },
+  {
+    "name": "Mokotów Beauty Clinic",
+    "address": "ul. Puławska 45",
+    "district": "Mokotów",
+    "phoneNumber": "+48 987 654 321",
+    "websiteUrl": "https://mokotowbeauty.pl",
+    "services": "Facial treatments, Eyebrows",
+    "priceRange": "Premium",
+    "rating": 4.6,
+    "reviewCount": 89
+  },
+  {
+    "name": "Golden Hair Studio",
+    "address": "ul. Grójecka 120",
+    "district": "Ochota",
+    "phoneNumber": "+48 555 111 222",
+    "websiteUrl": "https://goldenhair.pl",
+    "services": "Haircut, Hair coloring",
+    "priceRange": "Mid-range",
+    "rating": 4.4,
+    "reviewCount": 57
+  },
+  {
+    "name": "Prestige Nails & Spa",
+    "address": "ul. Wołoska 80",
+    "district": "Mokotów",
+    "phoneNumber": "+48 222 333 444",
+    "websiteUrl": "https://prestigenails.pl",
+    "services": "Nails, Spa, Massage",
+    "priceRange": "Luxury",
+    "rating": 4.9,
+    "reviewCount": 211
+  },
+  {
+    "name": "Bella Vita Salon",
+    "address": "ul. Górczewska 50",
+    "district": "Wola",
+    "phoneNumber": "+48 444 555 666",
+    "websiteUrl": "https://bellavita.pl",
+    "services": "Makeup, Eyebrows",
+    "priceRange": "Budget",
+    "rating": 4.2,
+    "reviewCount": 38
+  },
+  {
+    "name": "Urban Style Hair",
+    "address": "ul. Targowa 22",
+    "district": "Praga-Północ",
+    "phoneNumber": "+48 777 888 999",
+    "websiteUrl": "https://urbanstyle.pl",
+    "services": "Haircut, Beard styling",
+    "priceRange": "Mid-range",
+    "rating": 4.5,
+    "reviewCount": 74
+  },
+  {
+    "name": "Relax Beauty Zone",
+    "address": "ul. Jana Pawła II 18",
+    "district": "Śródmieście",
+    "phoneNumber": "+48 123 999 888",
+    "websiteUrl": "https://relaxbeauty.pl",
+    "services": "Massage, Spa",
+    "priceRange": "Premium",
+    "rating": 4.7,
+    "reviewCount": 96
+  },
+  {
+    "name": "Dream Nails Warsaw",
+    "address": "ul. Powstańców Śląskich 10",
+    "district": "Bemowo",
+    "phoneNumber": "+48 111 222 333",
+    "websiteUrl": "https://dreamnails.pl",
+    "services": "Nails, Pedicure",
+    "priceRange": "Budget",
+    "rating": 4.3,
+    "reviewCount": 51
+  },
+  {
+    "name": "Royal Beauty House",
+    "address": "ul. Modlińska 200",
+    "district": "Targówek",
+    "phoneNumber": "+48 666 777 111",
+    "websiteUrl": "https://royalbeauty.pl",
+    "services": "Facial treatments, Makeup",
+    "priceRange": "Luxury",
+    "rating": 4.9,
+    "reviewCount": 180
+  },
+  {
+    "name": "Fresh Look Studio",
+    "address": "ul. Belgradzka 14",
+    "district": "Ursynów",
+    "phoneNumber": "+48 888 111 555",
+    "websiteUrl": "https://freshlook.pl",
+    "services": "Haircut, Nails",
+    "priceRange": "Mid-range",
+    "rating": 4.4,
+    "reviewCount": 67
   }
 ]
